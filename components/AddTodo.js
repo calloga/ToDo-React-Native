@@ -12,6 +12,8 @@ export default function AddTodo({ submitHandler }) {
       <TextInput
         style={styles.input}
         placeholder="New Todo..."
+        placeholderTextColor="#fff"
+        value={text}
         onChangeText={changeHandler}
       />
       <Button
